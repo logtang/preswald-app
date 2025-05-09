@@ -1,0 +1,25 @@
+[project]
+title = "Logan's Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+logo = "images/big5.png"
+favicon = "images/brain.png"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+# My dataset
+[data.Big5_csv]
+type = 'csv'
+path = 'data/Big5.csv'
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
